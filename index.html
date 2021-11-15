@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github Finder</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav {
+      text-align: center;
+      color: #fff;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 10px auto;
+      border: 1px solid #bbb;
+    }
+
+    .info {
+      margin: 15px 0;
+    }
+
+    .clear {
+      margin: 5px 0;
+      padding: 10px;
+      background: red;
+      color: #fff;
+      border-radius: 5px;
+    }
+
+    h3 {
+      font-size: 24px;
+      padding: 20px;
+      background: #4582ec;
+    }
+
+    h1 {
+      font-size: 46px;
+    }
+
+    .main-par {
+      font-size: 24px;
+      color: #999;
+      margin: 15px 0;
+    }
+
+    #username {
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+      font-size: 20px;
+    }
+
+    footer {
+      margin-top: 20px;
+      padding: 15px;
+      background: #eee;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <h3>GitHub Finder</h3>
+  </nav>
+  <div class="container">
+    <article>
+      <h1>Search GitHub Users</h1>
+      <p class="main-par">Enter a username to fetch a user profile and repos</p>
+      <input type="text" id="username" placeholder="GitHub Username...">
+      <div class="output"></div>
+    </article>
+  </div>
+  <footer>
+    <p>GitHub Finder &copy;</p>
+  </footer>
+
+  <script src="github.js"></script>
+  <script src="ui.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
